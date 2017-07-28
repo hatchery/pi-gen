@@ -1,3 +1,5 @@
+sudo: enabled
+dist: trusty
 apt:
   packages:
   - quilt
