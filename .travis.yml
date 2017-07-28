@@ -20,4 +20,6 @@ install: true
 jobs:
   include:
   - stage: stage0
-    script: echo "stage0"
+    script:
+    - echo "hello"
+    - echo "line2"
