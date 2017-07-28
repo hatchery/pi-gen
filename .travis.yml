@@ -10,7 +10,8 @@ addons:
     - debootstrap
     - zerofree
     - pxz
-    - zipdosfstools
+    - zip
+    - dosfstools
     - bsdtar
     - libcap2-bin
     - grep
