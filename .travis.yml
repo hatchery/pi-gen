@@ -17,8 +17,7 @@ addons:
     - grep
     - rsync
 install: true
-script:
-- echo "IMG_NAME='Raspbian'" > config
-- touch ./stage3/SKIP ./stage4/SKIP ./stage5/SKIP
-- rm stage4/EXPORT*
-- sudo ./build.sh 
+jobs:
+  include:
+  - stage: stage0
+    script: echo "stage0"
