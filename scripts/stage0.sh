@@ -169,6 +169,6 @@ dependencies_check ${BASE_DIR}/depends
 mkdir -p ${WORK_DIR}
 log "Begin ${BASE_DIR}"
 
-STAGE_DIR= ${BASE_DIR}/stage0
+STAGE_DIR=${BASE_DIR}/stage0
 run_stage
 
