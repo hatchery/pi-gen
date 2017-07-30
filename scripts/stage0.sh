@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+echo "IMG_NAME='Raspbian'" > config
+
 run_sub_stage()
 {
 	log "Begin ${SUB_STAGE_DIR}"
