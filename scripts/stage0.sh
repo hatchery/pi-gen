@@ -172,5 +172,5 @@ log "Begin ${BASE_DIR}"
 STAGE_DIR=${BASE_DIR}/stage0
 run_stage
 
-ls -la ${STAGE_DIR}
-ls -la ${BASE_DIR}
+ls -la ${STAGE_WORK_DIR}
+ls -la ${WORK_DIR}
